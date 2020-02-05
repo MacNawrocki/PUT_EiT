@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name stabilizator)(type Legacy)(uri C:/Users/Michał/Desktop/projekt/projekt/stacja_bazowa/stacja/stabilizator.lib)(options "")(descr ""))
+  (lib (name stacja-rescue)(type Legacy)(uri ${KIPRJMOD}/stacja-rescue.lib)(options "")(descr ""))
+  (lib (name stacja-cache)(type Legacy)(uri "C:/STUDIA/LABY/projekt Michał/stacja/stacja-cache.lib")(options "")(descr ""))
+)

@@ -1,0 +1,19 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# AP7333-stabilizator
+#
+DEF AP7333-stabilizator U 0 40 Y Y 1 F N
+F0 "U" 0 100 50 H V C CNN
+F1 "AP7333-stabilizator" 0 200 50 H V C CNN
+F2 "" 0 -200 50 H I C CNN
+F3 "" 0 -200 50 H I C CNN
+DRAW
+S -200 -250 200 25 1 1 10 f
+X VI 1 -300 -50 100 R 50 50 1 1 W
+X VO 2 300 -50 100 L 50 50 1 1 w
+X GND 3 0 -350 100 U 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+#End Library

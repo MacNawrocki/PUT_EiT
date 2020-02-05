@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name NASZALIB)(type Legacy)(uri C:/STUDIA/LABY/SensorV1/Kontrola/NASZALIB.lib)(options "")(descr ""))
+  (lib (name uchwyt_baterii)(type Legacy)(uri ${KIPRJMOD}/uchwyt_baterii.lib)(options "")(descr ""))
+  (lib (name Kontrola-rescue)(type Legacy)(uri ${KIPRJMOD}/Kontrola-rescue.lib)(options "")(descr ""))
+)
