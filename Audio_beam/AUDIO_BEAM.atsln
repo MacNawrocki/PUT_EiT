@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# AvrStudio Solution File, Format Version 11.00
+Project("{E66E83B9-2572-4076-B26E-6BE79FF3018A}") = "AUDIO_BEAM", "AUDIO_BEAM\AUDIO_BEAM.cppproj", "{A5424380-5E6E-4AE1-A270-FD1C0A020401}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A5424380-5E6E-4AE1-A270-FD1C0A020401}.Debug|AVR.ActiveCfg = Debug|AVR
+		{A5424380-5E6E-4AE1-A270-FD1C0A020401}.Debug|AVR.Build.0 = Debug|AVR
+		{A5424380-5E6E-4AE1-A270-FD1C0A020401}.Release|AVR.ActiveCfg = Release|AVR
+		{A5424380-5E6E-4AE1-A270-FD1C0A020401}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
