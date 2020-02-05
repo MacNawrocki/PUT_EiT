@@ -1,0 +1,23 @@
+AudioFile.cpp:
+void AudioFile::WaitForCompletion(long msTimeout, long* EvCode)
+{
+	if (isReady&&audioEvent)
+	{
+		audioEvent->WaitForCompletion(msTimeout, EvCode);
+		if (*EvCode > 0) isPlaying=false;
+	}
+}
+
+AudioFile.h:
+
+funkcja LOAD():
+audioBuild->QueryInterface(IID_IMediaEventEx, (void **)&audioEvent);
+
+//funkcja kontroli przep³wu
+	void WaitForCompletion(long msTimeout, long* EvCode);
+
+//IMediaEventEx obs³uguje przep³yw
+	IMediaEventEx*  audioEvent;
+  
+
+main.cpp:
